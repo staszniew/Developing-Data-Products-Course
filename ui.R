@@ -26,6 +26,6 @@ shinyUI(
   )
 )
 )
-,tabPanel("About", includeMarkdown("about.md"))
+,tabPanel("About", includeHTML("about.html"))
 )
 )
